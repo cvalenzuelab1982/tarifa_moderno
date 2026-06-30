@@ -1,0 +1,270 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "WariDirecto-Modulo-TarifaEngine API",
+    "version": "v2"
+  },
+  "paths": {
+    "/api/v2/tarifaAuthorization/consultar": {
+      "post": {
+        "tags": [
+          "Tarifa"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Directo.Wari.TarifaEngine.Application.Features.Tarifa.Dtos.TarifaRequestDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Directo.Wari.TarifaEngine.Application.Features.Tarifa.Dtos.TarifaRequestDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Directo.Wari.TarifaEngine.Application.Features.Tarifa.Dtos.TarifaRequestDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Directo.Wari.TarifaEngine.Application.Features.Tarifa.Dtos.ServicioDestinoRequestDto": {
+        "type": "object",
+        "properties": {
+          "destinoLatitud": {
+            "type": "number",
+            "format": "double"
+          },
+          "destinoLongitud": {
+            "type": "number",
+            "format": "double"
+          },
+          "origenLatitud": {
+            "type": "number",
+            "format": "double"
+          },
+          "origenLongitud": {
+            "type": "number",
+            "format": "double"
+          },
+          "idTipoPago": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tarifa": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Directo.Wari.TarifaEngine.Application.Features.Tarifa.Dtos.ServicioDetalleRequestDto": {
+        "type": "object",
+        "properties": {
+          "origenLatitud": {
+            "type": "number",
+            "format": "double"
+          },
+          "origenLongitud": {
+            "type": "number",
+            "format": "double"
+          },
+          "destinoLatitud": {
+            "type": "number",
+            "format": "double"
+          },
+          "destinoLongitud": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Directo.Wari.TarifaEngine.Application.Features.Tarifa.Dtos.TarifaDestinoRequestDto": {
+        "type": "object",
+        "properties": {
+          "tipoServicio": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "origenLatitud": {
+            "type": "number",
+            "format": "double"
+          },
+          "origenLongitud": {
+            "type": "number",
+            "format": "double"
+          },
+          "destinoLatitud": {
+            "type": "number",
+            "format": "double"
+          },
+          "destinoLongitud": {
+            "type": "number",
+            "format": "double"
+          },
+          "cantidadDestino": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "posicionDestino": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "isOrigenDestinoAeropuerto": {
+            "type": "boolean"
+          },
+          "dtFechaServicio": {
+            "type": "string",
+            "nullable": true
+          },
+          "modoReserva": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "anticipadoalmomento": {
+            "type": "boolean"
+          },
+          "isPeaje": {
+            "type": "boolean"
+          },
+          "idEmpresa": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idTipoPago": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "lstMultiPuntos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Directo.Wari.TarifaEngine.Application.Features.Tarifa.Dtos.ServicioDetalleRequestDto"
+            },
+            "nullable": true
+          },
+          "lstDestinosBO": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Directo.Wari.TarifaEngine.Application.Features.Tarifa.Dtos.ServicioDestinoRequestDto"
+            },
+            "nullable": true
+          },
+          "anticipada": {
+            "type": "boolean"
+          },
+          "idCliente": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "primerDestino": {
+            "type": "boolean"
+          },
+          "lstDestinosLejanos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Directo.Wari.TarifaEngine.Application.Features.Tarifa.Dtos.ServicioDestinoRequestDto"
+            },
+            "nullable": true
+          },
+          "zonaLatamOrigen": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "zonaLatamDestino": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "cantPasajeros": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "soloTarifa": {
+            "type": "boolean"
+          },
+          "isPorTiempo": {
+            "type": "boolean"
+          },
+          "multidestino": {
+            "type": "boolean"
+          },
+          "idPromoActivacion": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idPromocion": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "sinDestino": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Directo.Wari.TarifaEngine.Application.Features.Tarifa.Dtos.TarifaRequestDto": {
+        "type": "object",
+        "properties": {
+          "anticipada": {
+            "type": "boolean"
+          },
+          "anticipadoAlMomento": {
+            "type": "boolean"
+          },
+          "dtFechaServicio": {
+            "type": "string",
+            "nullable": true
+          },
+          "idCliente": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idPromoActivacion": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "lstDestinos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Directo.Wari.TarifaEngine.Application.Features.Tarifa.Dtos.TarifaDestinoRequestDto"
+            },
+            "nullable": true
+          },
+          "modoReserva": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "isPeaje": {
+            "type": "boolean"
+          },
+          "idEmpresa": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "idTipoPago": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Tarifa"
+    }
+  ]
+}

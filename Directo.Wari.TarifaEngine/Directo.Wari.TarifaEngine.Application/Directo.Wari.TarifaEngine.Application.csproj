@@ -1,0 +1,68 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="12.1.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.1" />
+    <PackageReference Include="Mapster" Version="7.4.0" />
+    <PackageReference Include="Mapster.DependencyInjection" Version="1.0.1" />
+    <PackageReference Include="MediatR" Version="14.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="10.0.3" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="10.0.3" />
+    <PackageReference Include="Microsoft.SqlServer.Types" Version="170.1000.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Directo.Wari.TarifaEngine.Domain\Directo.Wari.TarifaEngine.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\Responses\" />
+    <Folder Include="Features\Cliente\Cmd\" />
+    <Folder Include="Features\Cliente\Dtos\" />
+    <Folder Include="Features\Cliente\Queries\" />
+    <Folder Include="Features\Compania\Cmd\" />
+    <Folder Include="Features\Compania\Dtos\" />
+    <Folder Include="Features\Compania\Queries\" />
+    <Folder Include="Features\Conductor\Cmd\" />
+    <Folder Include="Features\Conductor\Dtos\" />
+    <Folder Include="Features\Conductor\Queries\" />
+    <Folder Include="Features\DescargarMaestro\Cmd\" />
+    <Folder Include="Features\DescargarMaestro\Queries\" />
+    <Folder Include="Features\Empresa\Cmd\" />
+    <Folder Include="Features\Empresa\Dtos\" />
+    <Folder Include="Features\Empresa\Queries\" />
+    <Folder Include="Features\HoraPunta\Cmd\" />
+    <Folder Include="Features\HoraPunta\Queries\" />
+    <Folder Include="Features\HoraPunta\Services\" />
+    <Folder Include="Features\HttpApi\Cmd\" />
+    <Folder Include="Features\HttpApi\Queries\" />
+    <Folder Include="Features\Parametros\Cmd\" />
+    <Folder Include="Features\Parametros\Queries\" />
+    <Folder Include="Features\Peaje\Cmd\" />
+    <Folder Include="Features\Peaje\Dtos\" />
+    <Folder Include="Features\Peaje\Queries\" />
+    <Folder Include="Features\Plaza\Cmd\" />
+    <Folder Include="Features\Plaza\Dtos\" />
+    <Folder Include="Features\Plaza\Queries\" />
+    <Folder Include="Features\Promociones\Cmd\" />
+    <Folder Include="Features\Promociones\Queries\" />
+    <Folder Include="Features\RecargoEspecial\Cmd\" />
+    <Folder Include="Features\RecargoEspecial\Queries\" />
+    <Folder Include="Features\RecargoReserva\Cmd\" />
+    <Folder Include="Features\RecargoReserva\Queries\" />
+    <Folder Include="Features\Servicio\Cmd\" />
+    <Folder Include="Features\Servicio\Dtos\" />
+    <Folder Include="Features\Servicio\Services\" />
+    <Folder Include="Features\Servicio\Queries\" />
+    <Folder Include="Features\Tarifa\Cmd\" />
+    <Folder Include="Features\Zona\Cmd\" />
+    <Folder Include="Features\Zona\Queries\" />
+  </ItemGroup>
+
+</Project>

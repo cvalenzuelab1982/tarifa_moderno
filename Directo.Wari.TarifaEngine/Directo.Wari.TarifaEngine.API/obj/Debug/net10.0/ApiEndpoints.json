@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "Directo.Wari.TarifaEngine.API.Controllers.V2.TarifaController",
+    "Method": "SolicitarPrecios",
+    "RelativePath": "api/v2/tarifaAuthorization/consultar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Directo.Wari.TarifaEngine.Application.Features.Tarifa.Dtos.TarifaRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

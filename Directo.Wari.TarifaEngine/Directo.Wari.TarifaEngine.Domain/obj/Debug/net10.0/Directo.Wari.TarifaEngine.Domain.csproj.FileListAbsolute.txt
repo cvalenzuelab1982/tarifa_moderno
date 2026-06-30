@@ -1,0 +1,12 @@
+D:\PROYECTOSWEB\QT-PROYECTO\DIRECTO\di_wari2_tarifa_engine_back\Directo.Wari.TarifaEngine\Directo.Wari.TarifaEngine.Domain\bin\Debug\net10.0\Directo.Wari.TarifaEngine.Domain.deps.json
+D:\PROYECTOSWEB\QT-PROYECTO\DIRECTO\di_wari2_tarifa_engine_back\Directo.Wari.TarifaEngine\Directo.Wari.TarifaEngine.Domain\bin\Debug\net10.0\Directo.Wari.TarifaEngine.Domain.dll
+D:\PROYECTOSWEB\QT-PROYECTO\DIRECTO\di_wari2_tarifa_engine_back\Directo.Wari.TarifaEngine\Directo.Wari.TarifaEngine.Domain\bin\Debug\net10.0\Directo.Wari.TarifaEngine.Domain.pdb
+D:\PROYECTOSWEB\QT-PROYECTO\DIRECTO\di_wari2_tarifa_engine_back\Directo.Wari.TarifaEngine\Directo.Wari.TarifaEngine.Domain\obj\Debug\net10.0\Directo.Wari.TarifaEngine.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROYECTOSWEB\QT-PROYECTO\DIRECTO\di_wari2_tarifa_engine_back\Directo.Wari.TarifaEngine\Directo.Wari.TarifaEngine.Domain\obj\Debug\net10.0\Directo.Wari.TarifaEngine.Domain.AssemblyInfoInputs.cache
+D:\PROYECTOSWEB\QT-PROYECTO\DIRECTO\di_wari2_tarifa_engine_back\Directo.Wari.TarifaEngine\Directo.Wari.TarifaEngine.Domain\obj\Debug\net10.0\Directo.Wari.TarifaEngine.Domain.AssemblyInfo.cs
+D:\PROYECTOSWEB\QT-PROYECTO\DIRECTO\di_wari2_tarifa_engine_back\Directo.Wari.TarifaEngine\Directo.Wari.TarifaEngine.Domain\obj\Debug\net10.0\Directo.Wari.TarifaEngine.Domain.csproj.CoreCompileInputs.cache
+D:\PROYECTOSWEB\QT-PROYECTO\DIRECTO\di_wari2_tarifa_engine_back\Directo.Wari.TarifaEngine\Directo.Wari.TarifaEngine.Domain\obj\Debug\net10.0\Directo.Wari.TarifaEngine.Domain.sourcelink.json
+D:\PROYECTOSWEB\QT-PROYECTO\DIRECTO\di_wari2_tarifa_engine_back\Directo.Wari.TarifaEngine\Directo.Wari.TarifaEngine.Domain\obj\Debug\net10.0\Directo.Wari.TarifaEngine.Domain.dll
+D:\PROYECTOSWEB\QT-PROYECTO\DIRECTO\di_wari2_tarifa_engine_back\Directo.Wari.TarifaEngine\Directo.Wari.TarifaEngine.Domain\obj\Debug\net10.0\refint\Directo.Wari.TarifaEngine.Domain.dll
+D:\PROYECTOSWEB\QT-PROYECTO\DIRECTO\di_wari2_tarifa_engine_back\Directo.Wari.TarifaEngine\Directo.Wari.TarifaEngine.Domain\obj\Debug\net10.0\Directo.Wari.TarifaEngine.Domain.pdb
+D:\PROYECTOSWEB\QT-PROYECTO\DIRECTO\di_wari2_tarifa_engine_back\Directo.Wari.TarifaEngine\Directo.Wari.TarifaEngine.Domain\obj\Debug\net10.0\ref\Directo.Wari.TarifaEngine.Domain.dll

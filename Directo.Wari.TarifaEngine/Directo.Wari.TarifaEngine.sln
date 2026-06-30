@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37012.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		Bitacora.txt = Bitacora.txt
+		Esquema.txt = Esquema.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C4D03C3F-70A3-48FB-9B81-D7D7AFAE5302}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{ACBF32DE-E659-41B0-9E08-9D3C1262DD0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{219AD2E2-547A-4BCD-A9DC-F551D0311B4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure", "Infraestructure", "{35C1E453-55AF-459E-B3F3-80268C5947CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{78C034ED-7BF4-408A-98BA-C3BF9C8B9446}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directo.Wari.TarifaEngine.Application", "Directo.Wari.TarifaEngine.Application\Directo.Wari.TarifaEngine.Application.csproj", "{2D46824E-B213-488C-8652-D3691CC3CBB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directo.Wari.TarifaEngine.Domain", "Directo.Wari.TarifaEngine.Domain\Directo.Wari.TarifaEngine.Domain.csproj", "{808B438A-8936-438B-A509-659276AE9226}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directo.Wari.TarifaEngine.Infrastructure", "Directo.Wari.TarifaEngine.Infrastructure\Directo.Wari.TarifaEngine.Infrastructure.csproj", "{E1B977C0-DAB0-4F8F-BC65-6161AF732010}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directo.Wari.TarifaEngine.Infrastructure.Legacy", "Directo.Wari.TarifaEngine.Infrastructure.Legacy\Directo.Wari.TarifaEngine.Infrastructure.Legacy.csproj", "{F8231A88-5027-4F28-AC61-C879DA60D86C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Directo.Wari.TarifaEngine.API", "Directo.Wari.TarifaEngine.API\Directo.Wari.TarifaEngine.API.csproj", "{3DFBD19D-84E6-4EA6-88F5-4702FB5E729B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D46824E-B213-488C-8652-D3691CC3CBB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D46824E-B213-488C-8652-D3691CC3CBB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D46824E-B213-488C-8652-D3691CC3CBB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D46824E-B213-488C-8652-D3691CC3CBB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{808B438A-8936-438B-A509-659276AE9226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{808B438A-8936-438B-A509-659276AE9226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{808B438A-8936-438B-A509-659276AE9226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{808B438A-8936-438B-A509-659276AE9226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1B977C0-DAB0-4F8F-BC65-6161AF732010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1B977C0-DAB0-4F8F-BC65-6161AF732010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1B977C0-DAB0-4F8F-BC65-6161AF732010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1B977C0-DAB0-4F8F-BC65-6161AF732010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8231A88-5027-4F28-AC61-C879DA60D86C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8231A88-5027-4F28-AC61-C879DA60D86C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8231A88-5027-4F28-AC61-C879DA60D86C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8231A88-5027-4F28-AC61-C879DA60D86C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DFBD19D-84E6-4EA6-88F5-4702FB5E729B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DFBD19D-84E6-4EA6-88F5-4702FB5E729B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DFBD19D-84E6-4EA6-88F5-4702FB5E729B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DFBD19D-84E6-4EA6-88F5-4702FB5E729B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{219AD2E2-547A-4BCD-A9DC-F551D0311B4F} = {C4D03C3F-70A3-48FB-9B81-D7D7AFAE5302}
+		{35C1E453-55AF-459E-B3F3-80268C5947CA} = {C4D03C3F-70A3-48FB-9B81-D7D7AFAE5302}
+		{78C034ED-7BF4-408A-98BA-C3BF9C8B9446} = {C4D03C3F-70A3-48FB-9B81-D7D7AFAE5302}
+		{2D46824E-B213-488C-8652-D3691CC3CBB9} = {219AD2E2-547A-4BCD-A9DC-F551D0311B4F}
+		{808B438A-8936-438B-A509-659276AE9226} = {219AD2E2-547A-4BCD-A9DC-F551D0311B4F}
+		{E1B977C0-DAB0-4F8F-BC65-6161AF732010} = {35C1E453-55AF-459E-B3F3-80268C5947CA}
+		{F8231A88-5027-4F28-AC61-C879DA60D86C} = {35C1E453-55AF-459E-B3F3-80268C5947CA}
+		{3DFBD19D-84E6-4EA6-88F5-4702FB5E729B} = {78C034ED-7BF4-408A-98BA-C3BF9C8B9446}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3513CBB0-7936-46CF-967C-F7C91097326D}
+	EndGlobalSection
+EndGlobal

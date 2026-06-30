@@ -1,0 +1,82 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PROYECTOSWEB\\QT-PROYECTO\\DIRECTO\\di_wari2_tarifa_engine_back\\Directo.Wari.TarifaEngine\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3DFBD19D-84E6-4EA6-88F5-4702FB5E729B}|Directo.Wari.TarifaEngine.API\\Directo.Wari.TarifaEngine.API.csproj|d:\\proyectosweb\\qt-proyecto\\directo\\di_wari2_tarifa_engine_back\\directo.wari.tarifaengine\\directo.wari.tarifaengine.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3DFBD19D-84E6-4EA6-88F5-4702FB5E729B}|Directo.Wari.TarifaEngine.API\\Directo.Wari.TarifaEngine.API.csproj|solutionrelative:directo.wari.tarifaengine.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DFBD19D-84E6-4EA6-88F5-4702FB5E729B}|Directo.Wari.TarifaEngine.API\\Directo.Wari.TarifaEngine.API.csproj|d:\\proyectosweb\\qt-proyecto\\directo\\di_wari2_tarifa_engine_back\\directo.wari.tarifaengine\\directo.wari.tarifaengine.api\\directo.wari.tarifaengine.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{3DFBD19D-84E6-4EA6-88F5-4702FB5E729B}|Directo.Wari.TarifaEngine.API\\Directo.Wari.TarifaEngine.API.csproj|solutionrelative:directo.wari.tarifaengine.api\\directo.wari.tarifaengine.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DFBD19D-84E6-4EA6-88F5-4702FB5E729B}|Directo.Wari.TarifaEngine.API\\Directo.Wari.TarifaEngine.API.csproj|d:\\proyectosweb\\qt-proyecto\\directo\\di_wari2_tarifa_engine_back\\directo.wari.tarifaengine\\directo.wari.tarifaengine.api\\controllers\\v2\\tarifacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DFBD19D-84E6-4EA6-88F5-4702FB5E729B}|Directo.Wari.TarifaEngine.API\\Directo.Wari.TarifaEngine.API.csproj|solutionrelative:directo.wari.tarifaengine.api\\controllers\\v2\\tarifacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 671,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{53d10d51-d2d8-3452-ab88-12f687ed0782}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d98f7c4d-b652-422c-bcdf-3d0e2b2da2c1}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\PROYECTOSWEB\\QT-PROYECTO\\DIRECTO\\di_wari2_tarifa_engine_back\\Directo.Wari.TarifaEngine\\Directo.Wari.TarifaEngine.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Directo.Wari.TarifaEngine.API\\appsettings.json",
+              "ToolTip": "D:\\PROYECTOSWEB\\QT-PROYECTO\\DIRECTO\\di_wari2_tarifa_engine_back\\Directo.Wari.TarifaEngine\\Directo.Wari.TarifaEngine.API\\appsettings.json",
+              "RelativeToolTip": "Directo.Wari.TarifaEngine.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-26T15:44:57.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Directo.Wari.TarifaEngine.API.csproj",
+              "DocumentMoniker": "D:\\PROYECTOSWEB\\QT-PROYECTO\\DIRECTO\\di_wari2_tarifa_engine_back\\Directo.Wari.TarifaEngine\\Directo.Wari.TarifaEngine.API\\Directo.Wari.TarifaEngine.API.csproj",
+              "RelativeDocumentMoniker": "Directo.Wari.TarifaEngine.API\\Directo.Wari.TarifaEngine.API.csproj",
+              "ToolTip": "D:\\PROYECTOSWEB\\QT-PROYECTO\\DIRECTO\\di_wari2_tarifa_engine_back\\Directo.Wari.TarifaEngine\\Directo.Wari.TarifaEngine.API\\Directo.Wari.TarifaEngine.API.csproj",
+              "RelativeToolTip": "Directo.Wari.TarifaEngine.API\\Directo.Wari.TarifaEngine.API.csproj",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAkwCMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-22T16:23:38.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TarifaController.cs",
+              "DocumentMoniker": "D:\\PROYECTOSWEB\\QT-PROYECTO\\DIRECTO\\di_wari2_tarifa_engine_back\\Directo.Wari.TarifaEngine\\Directo.Wari.TarifaEngine.API\\Controllers\\V2\\TarifaController.cs",
+              "RelativeDocumentMoniker": "Directo.Wari.TarifaEngine.API\\Controllers\\V2\\TarifaController.cs",
+              "ToolTip": "D:\\PROYECTOSWEB\\QT-PROYECTO\\DIRECTO\\di_wari2_tarifa_engine_back\\Directo.Wari.TarifaEngine\\Directo.Wari.TarifaEngine.API\\Controllers\\V2\\TarifaController.cs",
+              "RelativeToolTip": "Directo.Wari.TarifaEngine.API\\Controllers\\V2\\TarifaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T14:12:50.859Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

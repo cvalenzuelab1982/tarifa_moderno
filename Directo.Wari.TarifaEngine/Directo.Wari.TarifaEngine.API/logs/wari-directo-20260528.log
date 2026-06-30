@@ -1,0 +1,5 @@
+2026-05-28 10:53:00.955 -05:00 [INF] Now listening on: http://localhost:5253
+2026-05-28 10:53:01.077 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-05-28 10:53:01.079 -05:00 [INF] Hosting environment: Development
+2026-05-28 10:53:01.079 -05:00 [INF] Content root path: D:\PROYECTOSWEB\QT-PROYECTO\DIRECTO\di_wari2_tarifa_engine_back\Directo.Wari.TarifaEngine\Directo.Wari.TarifaEngine.API
+2026-05-28 10:53:06.515 -05:00 [INF] HTTP HEAD / responded 404 in 128.1779 ms
